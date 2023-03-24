@@ -1,0 +1,27 @@
+{
+  "name": "fastify-upload",
+  "version": "1.0.0",
+  "description": "Upload files to your favorite provider",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "build:type-check": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.6",
+    "pino-pretty": "^10.0.0",
+    "prisma": "^4.11.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "fastify": "^4.15.0"
+  }
+}
